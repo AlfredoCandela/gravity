@@ -1,0 +1,69 @@
+{
+    "global_parameters": {
+        "Lower X limit:": "-10",
+        "Upper X limit:": "10",
+        "Lower Y limit:": "-10",
+        "Upper Y limit:": "10",
+        "Simulation time (seconds):": "6",
+        "Frames per second:": "30",
+        "Gravitational constant (G):": "0.12"
+    },
+    "particles": [
+        {
+            "Colour": "gold",
+            "Mass": "50",
+            "Position X": "0",
+            "Position Y": "0",
+            "Speed X": "0",
+            "Speed Y": "0"
+        },
+        {
+            "Colour": "red",
+            "Mass": "5",
+            "Position X": "0",
+            "Position Y": "5",
+            "Speed X": "-1",
+            "Speed Y": "0"
+        },
+        {
+            "Colour": "blue",
+            "Mass": "10",
+            "Position X": "5",
+            "Position Y": "0",
+            "Speed X": "0",
+            "Speed Y": "1"
+        },
+        {
+            "Colour": "black",
+            "Mass": "15",
+            "Position X": "-5",
+            "Position Y": "0",
+            "Speed X": "0",
+            "Speed Y": "-1"
+        },
+        {
+            "Colour": "green",
+            "Mass": "5",
+            "Position X": "0",
+            "Position Y": "-5",
+            "Speed X": "1",
+            "Speed Y": "0"
+        },
+        {
+            "Colour": "magenta",
+            "Mass": "10",
+            "Position X": "0",
+            "Position Y": "7.5",
+            "Speed X": "-2",
+            "Speed Y": "-1"
+        },
+        {
+            "Colour": "purple",
+            "Mass": "10",
+            "Position X": "0",
+            "Position Y": "-7.5",
+            "Speed X": "2",
+            "Speed Y": "1"
+        }
+    ]
+}
