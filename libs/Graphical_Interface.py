@@ -126,7 +126,7 @@ class Graphical_Interface(ctk.CTk):
         plt.grid()
 
         self.canvas = FigureCanvasTkAgg(self.figure, master=self)
-        self.canvas.get_tk_widget().grid(row=0, column=3, rowspan=4)
+        self.canvas.get_tk_widget().grid(row=0, column=2, rowspan=4, sticky="snwe", pady=5, padx=5)
 
     def start_animation(self):
         frames_per_second = int(self.global_inputs["Frames per second:"])
